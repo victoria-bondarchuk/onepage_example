@@ -29,7 +29,7 @@
 
         <!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
 
-        <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar navbar-fixed-top">
             <div class="navbar-inner">
                 <div class="container">
                     <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -40,6 +40,7 @@
                     <a class="brand" href="#">Portfolio</a>
                     <div class="nav-collapse collapse">
                         <ul class="nav" id="top-nav">
+                            <li ><a href="#">Home</a></li>
                             <li><a href="#section-1">Experience</a></li>
                             <li><a href="#section-2">Skills & Tools</a></li>
                             <li><a href="#section-3">Blog</a></li>
@@ -50,21 +51,30 @@
             </div>
         </div>
 
+  <!-- Begin content -->
+
         <div class="container">
+    <!-- <div class="LNG">
+      <span class="lang"> Language</span> 
+      <a class="active" href="/">English</a>
+      <span class="lang1">|</span>
+      <a class="passive" href="/ru.html">Русский</a>
+      <span class="lang1">|</span>
+      <a class="passive" href="/ko.html">한국어</a>
+    </div>-->
 
             <!-- Main hero unit for a primary marketing message or call to action -->
+
             <div class="hero-unit">
                 <h1>Victoria Bondarchuk</h1>
                 <p>UX/UI Designer</p>
                 
             </div>
-
+              
             <!-- Example row of columns -->
             <div class="row">
           
             </div>
-
-            <hr>
             
             <div class="block" id="section-1">
                 <h2 class="page-header">
@@ -211,5 +221,33 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tellus tellus, males
             });
         </script>
 
+ <hr>
+<ul class="social-links">
+                <li>
+                  <a href="mailto:me@victoriabondarchuk.com"
+                     onclick="_gaq.push(['_trackEvent', 'cv', 'email', 'header'])"
+                  >
+                    <img src="/img/email.png" class="ico" alt="Email logo" />
+                    <span class="dl">Contact me</span>
+                  </a>
+                </li>
+                <li>
+                  <a rel="nofollow" 
+                     href="http://www.linkedin.com/in/victoriabondarchuk"
+                     onclick="_gaq.push(['_trackEvent', 'cv', 'linkedin'])"
+                  >
+                    <img src="/img/linkedin.png" class="ico" alt="Linkedin logo" />
+                    <span class="dl">Linkedin</span>
+                  </a>
+                </li>
+                <li class="last-child">
+                  <a href="/victoria_bondarchuk_UX_designer_CV.pdf"
+                     onclick="_gaq.push(['_trackEvent', 'cv', 'download'])"
+                  >
+                    <img src="/img/pdf.png" class="ico" alt="PDF" />
+                    <span class="dl">Download pdf</span>
+                  </a>
+                </li>
+              </ul>
     </body>
 </html>
