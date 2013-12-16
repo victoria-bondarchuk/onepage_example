@@ -6,7 +6,10 @@
 .block{
     padding: 20px 0px;   
 }
-
+.ico {
+    margin-top: -5%;
+    width: 20px;
+}
 
 .hero-unit {
     background-color: white;
